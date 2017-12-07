@@ -14,7 +14,29 @@ import Story from './Story';
 class NewsStories extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      loading:true
+    }
   }
+
+  componentDidUpdate(){
+
+        if (this.props.stories && this.props.stories.length > 0 && this.state.loading){
+
+        setTimeout(this.loaded.bind(this), 0);
+
+        // this.refs.scrollcolumns.scrollLeft += window.innerWidth;
+        // window.requestAnimationFrame(function() {
+        //     _this.refs.scrollcolumns.scrollLeft += window.innerWidth;
+        // });
+        }
+    }
+
+  loaded(){
+  this.setState({
+    loading:false,
+  });
+}
 
   render() {
 
@@ -22,6 +44,8 @@ class NewsStories extends Component {
 
     return (
       <div>
+
+      {this.state.loading ? <div className="loading">loading news...</div> :null}
 
       {stories.map((story, idx) =>
         <div>

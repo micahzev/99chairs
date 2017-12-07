@@ -43,3 +43,10 @@
 .letter{
   color:#20C20E;
 }
+
+.loading {
+  font-size: 4rem;
+  background-color:  #222;
+  color:white;
+
+}
