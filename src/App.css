@@ -19,6 +19,13 @@
   margin: 0 auto;
 }
 
+.App-foot {
+  font-size: 2rem;
+  margin: 0 auto;
+  text-align: right;
+  padding-top: 2%;
+}
+
 .App-intro {
   font-size: large;
 }

@@ -20,6 +20,10 @@ class App extends Component {
           {this.props.children}
         </NewsStories>
 
+        <header className="App-header">
+          <h6 className="App-foot">built by <span className="letter">micah friedland</span></h6>
+        </header>
+
       </div>
     );
   }
