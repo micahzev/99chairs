@@ -20,7 +20,6 @@ class NewsStories extends Component {
 
     const stories = this.props.stories ? this.props.stories : [];
 
-
     return (
       <div>
 
