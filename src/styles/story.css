@@ -1,0 +1,64 @@
+.story{
+  display: -webkit-flex;
+  display:flex;
+  -webkit-flex-direction: row;
+  flex-direction:row;
+}
+
+.story div {
+  margin: 0 auto;
+}
+
+.index {
+  font-size: 1.5rem;
+
+}
+
+.storyTitle {
+  font-size: 2rem;
+  font-family: "Poppins", serif;
+  -webkit-flex-basis:0;
+  flex-basis:0;
+  -webkit-flex-grow:8;
+  flex-grow: 8;
+  line-height: 6rem;
+}
+
+.storyContainer {
+  display: -webkit-flex;
+  display:flex;
+  -webkit-flex-direction: row;
+  flex-direction:row;
+}
+
+.storyMetadata {
+  display: -webkit-flex;
+  display:flex;
+  -webkit-flex-direction: column;
+  flex-direction:column;=
+  -webkit-flex-basis:0;
+  flex-basis:0;
+  -webkit-flex-grow:2;
+  flex-grow: 2;
+
+  text-align: right;
+}
+
+.storyMetadata div {
+
+    padding-bottom: 4%;
+}
+
+.author {
+  font-size:1.4rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
