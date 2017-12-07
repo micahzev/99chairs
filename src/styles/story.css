@@ -11,7 +11,9 @@
 
 .index {
   font-size: 1.5rem;
-
+  text-align: left;
+  margin:2%;
+  color:#20C20E;
 }
 
 .storyTitle {
@@ -21,7 +23,9 @@
   flex-basis:0;
   -webkit-flex-grow:8;
   flex-grow: 8;
-  line-height: 6rem;
+  text-align: left;
+  margin-left: 5%;
+
 }
 
 .storyContainer {
@@ -29,6 +33,7 @@
   display:flex;
   -webkit-flex-direction: row;
   flex-direction:row;
+  margin-top: 1%;
 }
 
 .storyMetadata {
@@ -61,4 +66,5 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color:#20C20E;
 }

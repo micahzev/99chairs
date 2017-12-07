@@ -24,7 +24,10 @@ class NewsStories extends Component {
       <div>
 
       {stories.map((story, idx) =>
+        <div>
         <Story key={idx} className="storyitem" story={story} index={idx} />
+        <hr/>
+        </div>
        )}
 
       </div>
